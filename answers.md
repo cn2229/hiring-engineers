@@ -121,6 +121,7 @@ Bonus Question: Since this monitor is going to alert pretty often, you don’t w
 One that silences it from 7pm to 9am daily on M-F,
 And one that silences it all day on Sat-Sun.
 Make sure that your email is notified when you schedule the downtime and take a screenshot of that notification.
+	-Added downtimes under "Manage Downtime" in the Monitor Datadog tab.
 	-screenshot of downtime, 7pm-9pm daily on M-F setup: https://i.imgur.com/DQPGhyT.png
 	-screenshot of email notification: https://i.imgur.com/RHN88K4.png
 	-screenshot of downtime, weekend setup: https://i.imgur.com/7mAXDGW.png
@@ -131,6 +132,7 @@ Note: Using both ddtrace-run and manually inserting the Middleware has been know
 Bonus Question: What is the difference between a Service and a Resource?
 Provide a link and a screenshot of a Dashboard with both APM and Infrastructure Metrics.
 Please include your fully instrumented app in your submission, as well.
+	- Unable to complete this section. Encountered various issues and error messages with the setup.
 
 6. Final Question:
 Datadog has been used in a lot of creative ways in the past. We’ve written some blog posts about using Datadog to monitor the NYC Subway System, Pokemon Go, and even office restroom availability!

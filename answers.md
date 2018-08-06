@@ -12,7 +12,7 @@ Add tags in the Agent config file and show us a screenshot of your host and its 
 		tags: tagkey_1:value_1, tagkey_2:value_2, tagkey_3:value_3
 	
 	-screenshot of datadog.yaml file update: https://i.imgur.com/LXidHU6.png
-	-screenshot of Host Map in Datadog: https://i.imgur.com/U0V51bM.png
+	-screenshot of Host Map in Datadog: https://i.imgur.com/U0V51bM.png (https://app.datadoghq.com/infrastructure/map?host=543090676&fillby=avg%3Acpuutilization&sizeby=avg%3Anometric&groupby=availability-zone&nameby=name&nometrichosts=false&tvMode=false&nogrouphosts=true&palette=green_to_orange&paletteflip=false&node_type=host)
 
 Install a database on your machine (MongoDB, MySQL, or PostgreSQL) and then install the respective Datadog integration for that database.
 	-Installed MongoDB v. 3.6 (https://i.imgur.com/tgx7o1B.png & https://i.imgur.com/DPpI9kT.png)
@@ -96,6 +96,7 @@ Set the Timeboard's timeframe to the past 5 minutes
 Take a snapshot of this graph and use the @ notation to send it to yourself.
 	-screenshot of snapshot in Datadog: https://i.imgur.com/lF4F8Yt.png
 	-screenshot of email: https://i.imgur.com/NxfI9zY.png
+	-https://app.datadoghq.com/dash/873999/carmenmongodb-dashboard?live=false&page=0&is_auto=false&from_ts=1533575078385&to_ts=1533575378385&tile_size=m
 	
 Bonus Question: What is the Anomaly graph displaying?
 	-The anomaly graph is displaying and capturing the peaks and drops deviating from metrics data overtime.
@@ -111,7 +112,7 @@ Send you an email whenever the monitor triggers.
 Create different messages based on whether the monitor is in an Alert, Warning, or No Data state.
 Include the metric value that caused the monitor to trigger and host ip when the Monitor triggers an Alert state.
 When this monitor sends you an email notification, take a screenshot of the email that it sends you.
-	-new Metric Monitor set in Datadog (https://i.imgur.com/QJwK2VU.png)
+	-new Metric Monitor set in Datadog (https://i.imgur.com/QJwK2VU.png & https://app.datadoghq.com/monitors/5825703) 
 	-screenshot of inputting warning and alert, part 1: https://i.imgur.com/RgzQdma.png
 	-screenshot of inputting warning and alert, part 2: https://i.imgur.com/1s7dxCK.png
 	-screenshot of message setup: https://i.imgur.com/kO2x3Fl.png
